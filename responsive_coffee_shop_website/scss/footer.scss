@@ -1,0 +1,27 @@
+footer{
+  background-color: $bg-color;
+  i{
+    color: $text-color;
+  }
+  .socials{
+    a{
+      margin: 10px;
+      transition: opacity 650ms;
+      &:hover{
+        opacity: .6;
+      }
+    }
+    #facebook i{
+      color: #3c5a98;
+    }
+    #twitter i{
+      color: #1da1f2;
+    }
+    #instagram i{
+      color: #5d50c6;
+    }
+    #youtube i{
+      color: #ff0000;
+    }
+  }
+}

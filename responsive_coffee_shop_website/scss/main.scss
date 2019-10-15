@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap&subset=latin-ext');
+@import "variables";
+@import "header";
+@import "about";
+@import "menu";
+@import "footer";
+ body{
+   font-family: 'Poppins',sans-serif;
+ }
+.btn{
+  border: 1px solid $text-color;
+  color: $text-color;
+  width: 126px;
+  &:hover{
+    background-color: $text-color;
+    color: #fff;
+  }
+}

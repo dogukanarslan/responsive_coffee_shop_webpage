@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap&subset=latin-ext");
+header {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 29, 44, 0.95))), url("images/header-bg.jpg") center no-repeat;
+  background: -webkit-linear-gradient(rgba(16, 29, 44, 0.95)), url("images/header-bg.jpg") center no-repeat;
+  background: -o-linear-gradient(rgba(16, 29, 44, 0.95)), url("images/header-bg.jpg") center no-repeat;
+  background: linear-gradient(rgba(16, 29, 44, 0.95)), url("images/header-bg.jpg") center no-repeat;
+  background-size: cover; }
+  header nav .navbar-brand {
+    max-width: 100px;
+    -webkit-transition: opacity 650ms;
+    -o-transition: opacity 650ms;
+    transition: opacity 650ms; }
+    header nav .navbar-brand:hover {
+      opacity: .6; }
+  header nav i {
+    color: #c69963; }
+  header nav .navbar-nav a {
+    color: #c69963;
+    -webkit-transition: color 650ms;
+    -o-transition: color 650ms;
+    transition: color 650ms; }
+    header nav .navbar-nav a:hover {
+      color: #fff; }
+  header .hero-text {
+    color: #c69963;
+    margin-top: 200px; }
+
+.about .row {
+  min-height: 100vh; }
+
+.row .col-12 {
+  margin-bottom: 20px; }
+
+footer {
+  background-color: #101D2C; }
+  footer i {
+    color: #c69963; }
+  footer .socials a {
+    margin: 10px;
+    -webkit-transition: opacity 650ms;
+    -o-transition: opacity 650ms;
+    transition: opacity 650ms; }
+    footer .socials a:hover {
+      opacity: .6; }
+  footer .socials #facebook i {
+    color: #3c5a98; }
+  footer .socials #twitter i {
+    color: #1da1f2; }
+  footer .socials #instagram i {
+    color: #5d50c6; }
+  footer .socials #youtube i {
+    color: #ff0000; }
+
+body {
+  font-family: 'Poppins',sans-serif; }
+
+.btn {
+  border: 1px solid #c69963;
+  color: #c69963;
+  width: 126px; }
+  .btn:hover {
+    background-color: #c69963;
+    color: #fff; }
